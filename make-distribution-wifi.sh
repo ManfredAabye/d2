@@ -9,7 +9,9 @@ fi
 # Set directory variables
 opensimdir="../diva-distribution"
 # opensimdir="../../scratch/diva-wifi-fix-0-7-2/diva-distribution"
+# shellcheck disable=SC2034
 toolsdir="Tools"
+# shellcheck disable=SC2034
 libdir="Library"
 wd="$(pwd)"
 
