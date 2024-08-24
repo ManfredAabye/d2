@@ -53,7 +53,6 @@
       </Configuration>
 
       <ReferencePath>../bin/</ReferencePath>
-      <Reference name="System"/>
       <Reference name="OpenMetaverseTypes.dll"/>
 
       <Files>
@@ -77,7 +76,6 @@
       </Configuration>
 
       <ReferencePath>../bin/</ReferencePath>
-      <Reference name="System"/>
       <Reference name="Ionic.Zip.dll"/>
 
       <Files>
