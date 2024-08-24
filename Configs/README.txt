@@ -80,7 +80,7 @@ Hier ist der Text in Deutsch, Französisch und Spanisch übersetzt:
 
 ---
 
-### Deutsch:
+# Deutsch:
 Sie haben Divas Binärdistribution von OpenSim heruntergeladen.
 
 ******************************************************************
@@ -159,7 +159,7 @@ zu besuchen.
 
 ---
 
-### Französisch:
+# Französisch:
 Vous avez téléchargé la distribution binaire d'OpenSim de Diva.
 
 ******************************************************************
@@ -236,7 +236,7 @@ le meilleur moyen est de me suivre sur Twitter ou de visiter régulièrement ma 
 
 ---
 
-### Spanisch:
+# Spanisch:
 Ha descargado la distribución binaria de OpenSim de Diva.
 
 ******************************************************************
