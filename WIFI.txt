@@ -37,3 +37,97 @@ and manually enter the data for your SMTP server in the obvious places
 *** LINUX/MONO EXTRA STEP ***
 
 If you're running under linux/mono you need to 
+
+
+Hier ist der Text in Deutsch, Französisch und Spanisch übersetzt:
+
+---
+
+### Deutsch:
+*************** WIFI *****************
+
+Wifi ist ein Diva-Distro-Addon für OpenSim, das die Benutzerregistrierung und -verwaltung über das Web unterstützt. Es bietet folgende Funktionen:
+
+- Kontoerstellung
+- Kontomodifikation
+- Passwortwiederherstellung per E-Mail
+- Auflistung und Verwaltung von Inventar
+- Administratorzugriff auf Konten
+- Optionale Administratorsteuerung über die Kontoerstellung für private Welten
+
+In der Diva-Distro läuft Wifi direkt im Simulator für mehr Komfort - es ist kein Apache-Webserver erforderlich, alles kommt in einem einzigen Paket, dem Simulator. Um auf Wifi zuzugreifen, starten Sie OpenSim.exe und rufen dann in Ihrem Webbrowser die Adresse 
+http://your_external_hostname:9000/wifi auf.
+
+*** ANFORDERUNG AN EIN SMTP-KONTO ***
+
+Einige Funktionen in Wifi, wie die Passwortwiederherstellung, führen dazu, dass E-Mails an Benutzer gesendet werden. Um diese E-Mails zu versenden, kann Wifi jeden SMTP-Server verwenden, einschließlich Ihres eigenen, falls Sie einen haben.
+
+Zur Erleichterung verwendet der standardmäßige SMTP-Server von Wifi Gmail. Bitte erstellen Sie ein Konto bei Gmail speziell für diesen Zweck. Während des Konfigurationsschrittes werden Sie nach dem Benutzernamen und dem Passwort dieses Kontos gefragt.
+
+Wenn Sie Gmail nicht verwenden möchten, lassen Sie die Antworten während des Konfigurationsschrittes leer. Bearbeiten Sie dann nach der Konfiguration die Datei bin/config-include/MyWorld.ini und geben Sie die Daten für Ihren SMTP-Server manuell an den offensichtlichen Stellen ein (alle beginnen mit Smtp).
+
+*** LINUX/MONO ZUSÄTZLICHER SCHRITT ***
+
+Wenn Sie unter Linux/Mono arbeiten, müssen Sie...
+
+---
+
+### Französisch:
+*************** WIFI *****************
+
+Wifi est un module complémentaire de la distribution Diva pour OpenSim qui prend en charge l'enregistrement et la gestion des utilisateurs via le Web. Il offre les fonctionnalités suivantes :
+
+- Création de compte
+- Modification de compte
+- Récupération de mot de passe par e-mail
+- Liste et gestion de l'inventaire
+- Accès administrateur aux comptes
+- Contrôle facultatif de l'administrateur sur la création de comptes pour les mondes privés
+
+Dans la distribution Diva, Wifi fonctionne directement dans le simulateur pour plus de commodité - pas besoin de faire tourner un serveur web Apache, tout est inclus dans un seul package, le simulateur. Pour accéder à Wifi, exécutez OpenSim.exe, puis pointez votre navigateur Web vers 
+http://your_external_hostname:9000/wifi.
+
+*** EXIGENCE DE COMPTE SMTP ***
+
+Certaines fonctionnalités de Wifi, telles que la récupération de mot de passe, entraînent l'envoi d'e-mails aux utilisateurs. Pour envoyer ces e-mails, Wifi peut utiliser n'importe quel serveur SMTP, y compris le vôtre si vous en avez un.
+
+Pour plus de commodité, le serveur SMTP par défaut utilisé par Wifi est Gmail. Veuillez créer un compte Gmail spécifiquement pour cet usage. Lors de l'étape de configuration, vous serez invité à fournir le nom d'utilisateur et le mot de passe de ce compte.
+
+Si vous ne souhaitez pas utiliser Gmail, laissez les réponses en blanc lors de l'étape de configuration. Ensuite, après la configuration, modifiez le fichier bin/config-include/MyWorld.ini et saisissez manuellement les données de votre serveur SMTP aux endroits évidents (ils commencent tous par Smtp).
+
+*** ÉTAPE SUPPLÉMENTAIRE LINUX/MONO ***
+
+Si vous utilisez Linux/Mono, vous devez...
+
+---
+
+### Spanisch:
+*************** WIFI *****************
+
+Wifi es un complemento de la distribución Diva para OpenSim que admite el registro y la gestión de usuarios a través de la Web. Ofrece las siguientes características:
+
+- Creación de cuentas
+- Modificación de cuentas
+- Recuperación de contraseñas por correo electrónico
+- Listado y gestión de inventarios
+- Acceso del administrador a las cuentas
+- Control opcional del administrador sobre la creación de cuentas para mundos privados
+
+En la distribución Diva, Wifi se ejecuta dentro del propio simulador para mayor comodidad - no es necesario ejecutar un servidor web Apache, todo viene en un solo paquete, el simulador. Para acceder a Wifi, ejecute OpenSim.exe y luego dirija su navegador web a 
+http://your_external_hostname:9000/wifi.
+
+*** REQUISITO DE CUENTA SMTP ***
+
+Algunas funciones de Wifi, como la recuperación de contraseñas, resultan en correos electrónicos enviados a los usuarios. Para enviar estos correos electrónicos, Wifi puede utilizar cualquier servidor SMTP disponible, incluido el suyo si tiene uno.
+
+Para mayor comodidad, el servidor SMTP predeterminado utilizado por Wifi es Gmail. Por favor, cree una cuenta en Gmail específicamente para este propósito. Durante el paso de configuración, se le pedirá el nombre de usuario y la contraseña de esta cuenta.
+
+Si no desea utilizar Gmail, deje las respuestas en blanco durante el paso de configuración. Luego, después de la configuración, edite el archivo bin/config-include/MyWorld.ini y escriba manualmente los datos de su servidor SMTP en los lugares obvios (todos comienzan con Smtp).
+
+*** PASO ADICIONAL PARA LINUX/MONO ***
+
+Si está utilizando Linux/Mono, necesita...
+
+---
+
+Diese Übersetzungen sollten den Inhalt klar und verständlich in den jeweiligen Sprachen wiedergeben.
